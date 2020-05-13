@@ -5,13 +5,17 @@ html{
 body{
     height: 100%;
     background-image: linear-gradient(#7B9F35, #226666);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .game{
-    position: absolute;
+    /*position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);*/
     box-shadow: 0 1px 4px rgba(0,0,0,0.5);
     padding: 15px;
     background-color: #AA3939;
@@ -63,4 +67,8 @@ body{
     color: #D4EE9F;
     font-weight: bold;
     margin: auto 0;
+}
+.message{
+    color: #AA3939;
+    height: 80px;
 }
